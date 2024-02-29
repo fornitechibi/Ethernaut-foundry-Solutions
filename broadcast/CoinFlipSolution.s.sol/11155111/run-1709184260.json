@@ -1,0 +1,51 @@
+{
+  "transactions": [
+    {
+      "hash": "0xb1d1e32edd2d5630c7e93317d9444f8ec8e1dff5fe82f8f589d5e8fb884f37f8",
+      "transactionType": "CALL",
+      "contractName": "CoinFlip",
+      "contractAddress": "0x943993cd8d6a80F7808B79DD053346C1f061221f",
+      "function": "flip(bool)",
+      "arguments": [
+        "false"
+      ],
+      "transaction": {
+        "type": "0x02",
+        "from": "0xbecb6b068e44b37d950eb18311b871e8bdc782e2",
+        "to": "0x943993cd8d6a80f7808b79dd053346c1f061221f",
+        "gas": "0x9ceb",
+        "value": "0x0",
+        "data": "0x1d263f670000000000000000000000000000000000000000000000000000000000000000",
+        "nonce": "0x28",
+        "accessList": []
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    }
+  ],
+  "receipts": [
+    {
+      "transactionHash": "0xb1d1e32edd2d5630c7e93317d9444f8ec8e1dff5fe82f8f589d5e8fb884f37f8",
+      "transactionIndex": "0xe",
+      "blockHash": "0x02de47c02c751145f07353497756c91a6e87d82e48a58925668ad1997b312ac8",
+      "blockNumber": "0x522d0f",
+      "from": "0xbECB6B068e44b37d950eb18311b871e8bDC782e2",
+      "to": "0x943993cd8d6a80F7808B79DD053346C1f061221f",
+      "cumulativeGasUsed": "0x91bc6",
+      "gasUsed": "0x719c",
+      "contractAddress": null,
+      "logs": [],
+      "status": "0x1",
+      "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "type": "0x2",
+      "effectiveGasPrice": "0xc4328e2c"
+    }
+  ],
+  "libraries": [],
+  "pending": [],
+  "returns": {},
+  "timestamp": 1709184260,
+  "chain": 11155111,
+  "multi": false,
+  "commit": "242ba66"
+}
